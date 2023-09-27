@@ -8,7 +8,7 @@ import { AiOutlineBarChart, AiOutlineHeart, AiOutlineRetweet, AiOutlineUpload } 
 
 const Post = () => {
   return (
-    <div>
+    <div className="hover:bg-neutral-100 cursor-pointer">
       <div className="p-4 border-b flex gap-4">
         <div>
           <Image

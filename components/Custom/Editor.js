@@ -15,6 +15,7 @@ const Editor = () => {
     <div className="p-4 flex gap-4 border-b">
       <div>
         <Image
+          priority
           src={avatar}
           width={50}
           height={50}
